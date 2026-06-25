@@ -1,4 +1,4 @@
-# Website Chăm Só Thú Cưng
+# Website Chăm Sóc Thú Cưng
 
 ## 1. Giới Thiệu Đồ Án
 
