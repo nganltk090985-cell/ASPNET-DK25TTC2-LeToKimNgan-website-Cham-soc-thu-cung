@@ -6,7 +6,7 @@
 
 Hệ thống cung cấp:
 - **Trang người dùng**: xem sản phẩm, giỏ hàng, đặt hàng, đăng ký dịch vụ (khách sạn, spa) cho thú cưng
-- **Trang quản trị**: quản lý sản phẩm, đơn hàng, khách hàng, phân quyền nhân viên, thống kê
+- **Trang quản trị**: quản lý sản phẩm, đơn hàng, khách hàng, phân quyền nhân viên, thống kê.
 
 ---
 
