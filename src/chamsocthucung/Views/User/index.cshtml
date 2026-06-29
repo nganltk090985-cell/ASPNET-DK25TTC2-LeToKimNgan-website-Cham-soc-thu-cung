@@ -1,0 +1,226 @@
+﻿@{
+    ViewBag.Title = "Web Chăm Só Thú Cưng";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<style>
+    body, html {
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    /* Hero Video Background */
+    .hero-video-wrapper {
+        position: relative;
+        width: 100%;
+        max-height: 500px;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+    .hero-video-wrapper video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Tiêu đề mục */
+    .section-title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+        color: #924bd5; /* Màu hồng cam thân thiện với pet shop */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    /* Product Card Styles */
+    .pet-product-card {
+        background: #fff;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        transition: all 0.3s ease-in-out;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #f1f1f1;
+    }
+
+    .pet-product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .pet-product-card .imgPart {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        text-align: center;
+        height: 220px; /* Cố định chiều cao ảnh */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+
+    .pet-product-card .imgPart img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        transition: transform 0.3s;
+    }
+
+    .pet-product-card:hover .imgPart img {
+        transform: scale(1.05);
+    }
+
+    .pet-product-card .titleProduct {
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .pet-product-card .titleProduct:hover {
+        color: #924bd5;
+    }
+
+    .pet-product-card .price {
+        color: #924bd5;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Nút Thêm Giỏ Hàng */
+    .btn-add-cart {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #924bd5;
+        color: white;
+        padding: 10px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s;
+        margin-top: auto; /* Đẩy nút xuống đáy card */
+    }
+
+    .btn-add-cart:hover {
+        background-color: #ff4757;
+        color: white;
+        text-decoration: none;
+    }
+</style>
+
+<link href="~/Content/sanpham.css" rel="stylesheet" />
+<link rel="stylesheet" href="~/Content/jquery.fancybox.min.css" />
+
+<div class="hero-video-wrapper">
+    <video id="bgvid1" playsinline autoplay muted loop>
+        <source src="~/img/slider-image/videoban.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div id="PageContainer" class="is-moved-by-drawer">
+    <main class="main-content container" role="main">
+
+        @* Phần danh mục Banner - Đã được làm sạch mã (Nếu muốn dùng bạn có thể bỏ comment)
+        <section id="home-banners" class="mb-5">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="hb-img rounded shadow-sm overflow-hidden">
+                        <a href="https://localhost:44335/User/SPTheoloai/1" class="text-decoration-none text-dark d-block p-3 bg-light">
+                            <img src="~/img/cho2.png" alt="Sản phẩm cho chó" class="img-fluid mb-2" />
+                            <strong>Thú cưng chó</strong>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="hb-img rounded shadow-sm overflow-hidden">
+                        <a href="https://localhost:44335/User/SPTheoloai/2" class="text-decoration-none text-dark d-block p-3 bg-light">
+                            <img src="~/img/meo.png" alt="Sản phẩm cho mèo" class="img-fluid mb-2" />
+                            <strong>Thú cưng mèo</strong>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="hb-img rounded shadow-sm overflow-hidden">
+                        <a href="https://localhost:44335/User/SPTheothuonghieu/9" class="text-decoration-none text-dark d-block p-3 bg-light">
+                            <img src="~/img/chuong.png" alt="Chuồng nuôi" class="img-fluid mb-2" />
+                            <strong>Chuồng nuôi</strong>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="hb-img rounded shadow-sm overflow-hidden">
+                        <a href="https://localhost:44335/User/SPTheothuonghieu/8" class="text-decoration-none text-dark d-block p-3 bg-light">
+                            <img src="~/img/xu.png" alt="Thức ăn" class="img-fluid mb-2" />
+                            <strong>Thức ăn</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        *@
+
+        <section id="home-collections" class="mb-5">
+            <div class="secMainContent">
+                <div class="text-center mb-4">
+                    <div class="stylizedIcon mb-2">
+                        <img alt="item" src="~/images/item_1MM.png" style="max-width: 50px;">
+                    </div>
+                    <h2 class="section-title">Thú Cưng Nổi Bật</h2>
+                </div>
+
+                <div class="row">
+                    @foreach (var i in Model)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="pet-product-card">
+                                <a href="@Url.Action("Chitiet", "User", new { id = i.MASP })" class="imgPart">
+                                    <img alt="@i.TENSP" src="@Url.Content("~/img/" + @i.HINHANH)">
+                                </a>
+
+                                <a href="@Url.Action("Chitiet", "User", new { id = i.MASP })" style="text-decoration: none;">
+                                    <p class="titleProduct" title="@i.TENSP">@i.TENSP</p>
+                                </a>
+
+                                <div class="price">
+                                    @String.Format("{0:0,0}", i.DONGIABAN)đ
+                                </div>
+
+                                <a class="btn-add-cart" href="@Url.Action("ThemGiohang", "GioHang", new { @iMASP = i.MASP, @strURL = Request.Url.ToString() })" title="Thêm Giỏ Hàng">
+                                    Thêm Giỏ Hàng
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<div id="modalAddComplete"></div>
+<button type="button" id="modalAddCompleteBtn" style="display: none;"></button>
+
+<script type="text/javascript" src="~/Scripts/owlcarousel.js"></script>
+<script type="text/javascript" src="~/Scripts/ajax-cart5eef.js"></script>
+<script type="text/javascript" src="~/Scripts/api.jquery.js"></script>
+<script type="text/javascript" src="~/Scripts/option_selection.js"></script>
+<script type="text/javascript" src="~/Scripts/fastclick.min5eef.js"></script>
+<script type="text/javascript" src="//theme.hstatic.net/1000359177/1000456422/14/script.js?v=110"></script>
+<script type="text/javascript" src="~/Scripts/script5eef.js"></script>
+<script type="text/javascript" src="~/Scripts/timber5eef.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="~/Scripts/handlebars.min5eef.js"></script>
