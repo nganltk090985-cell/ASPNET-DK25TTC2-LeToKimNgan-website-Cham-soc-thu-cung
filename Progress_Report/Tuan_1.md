@@ -1,8 +1,8 @@
 # BÁO CÁO TIẾN ĐỘ TUẦN 1
 
 **Họ và tên:**LÊ TÔ KIM NGÂN
-**Mã số sinh viên:** ...
-**Lớp:** ...
+**Mã số sinh viên:**170125068
+**Lớp:** DK25TTC2
 **Đề tài:** Website Chăm Só Thú Cưng
 **Thời gian:** 22/06/2026 - 29/06/2026
 
