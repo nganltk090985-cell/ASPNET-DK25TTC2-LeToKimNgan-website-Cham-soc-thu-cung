@@ -1,10 +1,10 @@
 # BÁO CÁO TIẾN ĐỘ TUẦN 1
 
-**Họ và tên:** Nguyễn Thị Ngân
+**Họ và tên:**LÊ TÔ KIM NGÂN
 **Mã số sinh viên:** ...
 **Lớp:** ...
 **Đề tài:** Website Chăm Só Thú Cưng
-**Thời gian:** 22/06/2026 - 28/06/2026
+**Thời gian:** 22/06/2026 - 29/06/2026
 
 ---
 
@@ -160,5 +160,5 @@ Controllers/
 
 ---
 
-**Ngày báo cáo:** 28/06/2026
+**Ngày báo cáo:** 29/06/2026
 **Chữ ký sinh viên:** ___________________
