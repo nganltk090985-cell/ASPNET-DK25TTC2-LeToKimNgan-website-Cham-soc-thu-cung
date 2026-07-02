@@ -63,7 +63,7 @@ Hệ thống cung cấp:
 - Duyệt đến file `webchamsocthucung.sln` trong thư mục `chamsocthucung`
 - Nhấn **Open**
 
-**Bước 4:** Cấu hình Connection String
+**Bước 4:** Cấu hình Connection String.
 - Mở file `Web.config` trong project
 - Kiểm tra dòng `Data Source` trong `connectionStrings`:
 ```xml
@@ -116,7 +116,7 @@ Hệ thống cung cấp:
 | **Đổi mật khẩu Admin** | `/Admin/DoiMK` |
 | **Thông tin Admin** | `/Admin/thongtinadmin` |
 
-### 4.2. Trang Quản Lý Phân Quyền
+### 4.2. Trang Quản Lý Phân Quyền.
 
 | Chức năng | Link |
 |---|---|
