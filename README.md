@@ -10,9 +10,9 @@ Hệ thống cung cấp:
 
 ---
 
-## 2. Yêu Cầu Hệ Thống
+## 2. Yêu Cầu Hệ Thống.
 
-### 2.1. Phần mềm cần cài đặt
+### 2.1. Phần mềm cần cài đặt.
 
 | Phần mềm | Phiên bản tối thiểu | Link tải |
 |---|---|---|
