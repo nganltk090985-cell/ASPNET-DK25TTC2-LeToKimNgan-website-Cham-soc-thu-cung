@@ -63,7 +63,7 @@ Hệ thống cung cấp:
 - Duyệt đến file `webchamsocthucung.sln` trong thư mục `chamsocthucung`
 - Nhấn **Open**
 
-**Bước 4:** Cấu hình Connection String.
+**Bước 4:** Cấu hình Connection String
 - Mở file `Web.config` trong project
 - Kiểm tra dòng `Data Source` trong `connectionStrings`:
 ```xml
