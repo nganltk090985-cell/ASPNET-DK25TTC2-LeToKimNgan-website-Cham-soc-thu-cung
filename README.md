@@ -1,6 +1,6 @@
 # Website Chăm Sóc Thú Cưng
 
-## 1. Giới Thiệu Đồ Án
+## 1. Giới Thiệu Đồ Án.
 
 Đồ án **Website Chăm Sóc Thú Cưng** là hệ thống thương mại điện tử (e-commerce) dành cho cửa hàng thú cưng, được xây dựng trên nền tảng **ASP.NET MVC 5 (.NET Framework 4.7.2)** với **SQL Server**.
 
@@ -10,7 +10,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 2. Yêu Cầu Hệ Thống
+## 2. Yêu Cầu Hệ Thống.
 
 ### 2.1. Phần mềm cần cài đặt
 
@@ -46,7 +46,7 @@ Hệ thống cung cấp:
 - Chạy toàn bộ script (phím tắt: `Ctrl + A` rồi `F5`)
 - Database `chamsocthucung` sẽ được tạo cùng dữ liệu mẫu
 
-### 2.3. Cài đặt Visual Studio
+### 2.3. Cài đặt Visual Studio.
 
 **Bước 1:** Tải Visual Studio
 - Truy cập: https://visualstudio.microsoft.com/downloads/
@@ -200,7 +200,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 6. Sơ Đồ Cấu Trúc Project
+## 6. Sơ Đồ Cấu Trúc Project.
 
 ```
 D:\tvu-Project\chamsocthucung\cngan\
@@ -468,7 +468,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 
 ---
 
-## 9. Cấu Hình Kết Nối Database
+## 9. Cấu Hình Kết Nối Database.
 
 ```xml
 <!-- Web.config - Connection String -->
