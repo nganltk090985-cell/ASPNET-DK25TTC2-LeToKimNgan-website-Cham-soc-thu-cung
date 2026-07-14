@@ -1,6 +1,6 @@
 # Website Chăm Sóc Thú Cưng
 
-## 1. Giới Thiệu Đồ Án
+## 1. Giới Thiệu Đồ Án.
 
 Đồ án **Website Chăm Sóc Thú Cưng** là hệ thống thương mại điện tử (e-commerce) dành cho cửa hàng thú cưng, được xây dựng trên nền tảng **ASP.NET MVC 5 (.NET Framework 4.7.2)** với **SQL Server**.
 
@@ -10,9 +10,9 @@ Hệ thống cung cấp:
 
 ---
 
-## 2. Yêu Cầu Hệ Thống
+## 2. Yêu Cầu Hệ Thống.
 
-### 2.1. Phần mềm cần cài đặt
+### 2.1. Phần mềm cần cài đặt.
 
 | Phần mềm | Phiên bản tối thiểu | Link tải |
 |---|---|---|
@@ -79,7 +79,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 3. Tài Khoản Đăng Nhập
+## 3. Tài Khoản Đăng Nhập.
 
 ### 3.1. Tài khoản Admin (Quản trị)
 
