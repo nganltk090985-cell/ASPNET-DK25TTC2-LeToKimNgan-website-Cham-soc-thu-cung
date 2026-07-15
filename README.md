@@ -116,7 +116,7 @@ Hệ thống cung cấp:
 | **Đổi mật khẩu Admin** | `/Admin/DoiMK` |
 | **Thông tin Admin** | `/Admin/thongtinadmin` |
 
-### 4.2. Trang Quản Lý Phân Quyền
+### 4.2. Trang Quản Lý Phân Quyền.
 
 | Chức năng | Link |
 |---|---|
@@ -468,7 +468,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 
 ---
 
-## 9. Cấu Hình Kết Nối Database
+## 9. Cấu Hình Kết Nối Database.
 
 ```xml
 <!-- Web.config - Connection String -->
@@ -485,7 +485,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 
 ---
 
-## 10. Công Nghệ Sử Dụng
+## 10. Công Nghệ Sử Dụng.
 
 | Layer | Công nghệ |
 |---|---|
