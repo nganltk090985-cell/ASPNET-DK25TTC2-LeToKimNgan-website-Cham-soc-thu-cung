@@ -1,6 +1,6 @@
 # Website Chăm Sóc Thú Cưng
 
-## 1. Giới Thiệu Đồ Án.
+## 1. Giới Thiệu Đồ Án
 
 Đồ án **Website Chăm Sóc Thú Cưng** là hệ thống thương mại điện tử (e-commerce) dành cho cửa hàng thú cưng, được xây dựng trên nền tảng **ASP.NET MVC 5 (.NET Framework 4.7.2)** với **SQL Server**.
 
@@ -10,9 +10,9 @@ Hệ thống cung cấp:
 
 ---
 
-## 2. Yêu Cầu Hệ Thống.
+## 2. Yêu Cầu Hệ Thống
 
-### 2.1. Phần mềm cần cài đặt.
+### 2.1. Phần mềm cần cài đặt
 
 | Phần mềm | Phiên bản tối thiểu | Link tải |
 |---|---|---|
@@ -181,7 +181,7 @@ Hệ thống cung cấp:
 | 12 | Thống kê | Thống kê doanh thu, đơn hàng |
 | 13 | Đổi mật khẩu | Đổi mật khẩu admin |
 
-### 5.3. Phân Quyền Chi Tiết.
+### 5.3. Phân Quyền Chi Tiết
 
 | Mã quyền | Tên quyền | Quản trị | Nhân viên 1 | Nhân viên 2 | Nhân viên 3 |
 |---|---|:---:|:---:|:---:|:---:|
@@ -200,7 +200,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 6. Sơ Đồ Cấu Trúc Project.
+## 6. Sơ Đồ Cấu Trúc Project
 
 ```
 D:\tvu-Project\chamsocthucung\cngan\
@@ -234,10 +234,10 @@ D:\tvu-Project\chamsocthucung\cngan\
 │   │   ├── MausacController.cs        # Quản lý màu sắc
 │   │   ├── SanPhamController.cs       # Quản lý sản phẩm
 │   │   ├── ThongKeController.cs       # Thống kê
-│   │   ├── ThuongHieuController.cs     # Quản lý thương hiệu
+│   │   ├── ThuongHieuController.cs    # Quản lý thương hiệu
 │   │   └── UserController.cs          # Người dùng - đăng nhập, trang chủ, giỏ hàng
 │   │
-│   ├── Models\                        # Các Model + LINQ to SQL
+│   ├── Models\                         # Các Model + LINQ to SQL
 │   │   ├── DataClasses.dbml            # File DBML (database diagram)
 │   │   ├── DataClasses.designer.cs     # File sinh tự động từ DBML
 │   │   ├── DangKy.cs
@@ -255,23 +255,23 @@ D:\tvu-Project\chamsocthucung\cngan\
 │   ├── ViewModels\
 │   │   └── ListDVViewModel.cs          # ViewModel cho danh sách dịch vụ
 │   │
-│   ├── Views\                         # Các View (Razor)
+│   ├── Views\                          # Các View (Razor)
 │   │   ├── Shared\                     # Layout dùng chung
 │   │   │   ├── _LayoutAdmin.cshtml     # Layout trang Admin
 │   │   │   └── _LayoutUser.cshtml      # Layout trang người dùng
 │   │   │
 │   │   ├── Admin\                      # Views Admin (7 files)
-│   │   │   ├── Index.cshtml             # Trang quản trị chính
-│   │   │   ├── dangnhap.cshtml          # Trang đăng nhập Admin
-│   │   │   ├── listadmin.cshtml          # Danh sách admin
-│   │   │   ├── thongtinadmin.cshtml       # Thông tin cá nhân admin
+│   │   │   ├── Index.cshtml            # Trang quản trị chính
+│   │   │   ├── dangnhap.cshtml         # Trang đăng nhập Admin
+│   │   │   ├── listadmin.cshtml        # Danh sách admin
+│   │   │   ├── thongtinadmin.cshtml    # Thông tin cá nhân admin
 │   │   │   ├── Create.cshtml
 │   │   │   ├── Edit.cshtml
 │   │   │   └── Delete.cshtml
 │   │   │
-│   │   ├── AdminPQ\                    # Views Phân quyền (8 files)
+│   │   ├── AdminPQ\                     # Views Phân quyền (8 files)
 │   │   │   ├── DSPhanQuyen.cshtml       # Danh sách phân quyền
-│   │   │   ├── DSChucNang.cshtml         # Danh sách chức năng
+│   │   │   ├── DSChucNang.cshtml        # Danh sách chức năng
 │   │   │   ├── ChiTietDSPhanQuyen.cshtml
 │   │   │   ├── Create.cshtml
 │   │   │   ├── CreateCN.cshtml          # Tạo chức năng
@@ -280,7 +280,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 │   │   │   └── Delete.cshtml
 │   │   │
 │   │   ├── SanPham\                    # Views Sản phẩm (5 files)
-│   │   │   ├── Index.cshtml             # Danh sách sản phẩm
+│   │   │   ├── Index.cshtml            # Danh sách sản phẩm
 │   │   │   ├── Create.cshtml
 │   │   │   ├── Edit.cshtml
 │   │   │   ├── Delete.cshtml
@@ -299,9 +299,9 @@ D:\tvu-Project\chamsocthucung\cngan\
 │   │   ├── BaoLoi\                     # Views Lỗi (1 file)
 │   │   │
 │   │   └── User\                       # Views Người dùng (23 files)
-│   │       ├── index.cshtml             # Trang chủ
-│   │       ├── dangnhap.cshtml          # Đăng nhập
-│   │       ├── dangky.cshtml             # Đăng ký
+│   │       ├── index.cshtml            # Trang chủ
+│   │       ├── dangnhap.cshtml         # Đăng nhập
+│   │       ├── dangky.cshtml           # Đăng ký
 │   │       ├── sanpham.cshtml           # Tất cả sản phẩm
 │   │       ├── Chitiet.cshtml           # Chi tiết sản phẩm
 │   │       ├── SPTheoloai.cshtml        # Sản phẩm theo loại
@@ -313,7 +313,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 │   │       ├── listhinhanhnho.cshtml
 │   │       ├── listhinhanhnhoduoi.cshtml
 │   │       ├── hinhthuonghieu.cshtml     # Hình thương hiệu
-│   │       ├── gioithieu.cshtml           # Giới thiệu
+│   │       ├── gioithieu.cshtml          # Giới thiệu
 │   │       ├── Lienhe.cshtml             # Liên hệ
 │   │       ├── thongbaolienhe.cshtml
 │   │       ├── khachsanthucung.cshtml    # Khách sạn thú cưng
@@ -468,7 +468,7 @@ D:\tvu-Project\chamsocthucung\cngan\
 
 ---
 
-## 9. Cấu Hình Kết Nối Database.
+## 9. Cấu Hình Kết Nối Database
 
 ```xml
 <!-- Web.config - Connection String -->
