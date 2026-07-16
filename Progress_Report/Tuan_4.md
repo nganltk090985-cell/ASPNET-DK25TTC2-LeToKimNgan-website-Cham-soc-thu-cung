@@ -1,16 +1,16 @@
 # BÁO CÁO TIẾN ĐỘ TUẦN 4
 
-**Họ và tên:**LÊ TÔ KIM NGÂN
-**Mã số sinh viên:**170125068
-**Lớp:** DK25TTC2
-**Đề tài:** Website Chăm Só Thú Cưng
+**Họ và tên:**LÊ TÔ KIM NGÂN.
+**Mã số sinh viên:**170125068.
+**Lớp:** DK25TTC2.
+**Đề tài:** Website Chăm Só Thú Cưng.
 **Thời gian:** 13/07/2026 - 19/07/2026
 
 ---
 
-## 1. Các Bước Chuẩn Bị
+## 1. Các Bước Chuẩn Bị.
 
-### 1.1. Nhiệm vụ tuần 4
+### 1.1. Nhiệm vụ tuần 4.
 
 | STT | Nhiệm vụ | Trạng thái | Ghi chú |
 |---|---|---|---|
@@ -23,9 +23,9 @@
 
 ---
 
-## 2. Các Tài Liệu Liên Quan Đã Nghiên Cứu
+## 2. Các Tài Liệu Liên Quan Đã Nghiên Cứu.
 
-### 2.1. Tài liệu Git và GitHub
+### 2.1. Tài liệu Git và GitHub.
 
 | STT | Tài liệu | Nội dung | Áp dụng |
 |---|---|---|---|
