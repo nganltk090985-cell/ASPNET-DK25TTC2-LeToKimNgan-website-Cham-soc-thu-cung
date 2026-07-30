@@ -1,9 +1,13 @@
 # BÁO CÁO TIẾN ĐỘ TUẦN 4
 
-**Họ và tên:**LÊ TÔ KIM NGÂN.
-**Mã số sinh viên:**170125068.
-**Lớp:** DK25TTC2.
-**Đề tài:** Website Chăm Só Thú Cưng.
+**Họ và tên:** LÊ TÔ KIM NGÂN 
+
+**Mã số sinh viên:** 170125068 
+
+**Lớp:** DK25TTC2
+
+**Đề tài:** Website Chăm Só Thú Cưng tại Nhà
+
 **Thời gian:** 13/07/2026 - 19/07/2026
 
 ---
