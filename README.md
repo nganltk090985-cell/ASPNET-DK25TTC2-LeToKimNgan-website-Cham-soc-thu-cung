@@ -1,8 +1,8 @@
-# Website Chăm Sóc Thú Cưng
+# Website Chăm Sóc Thú Cưng tại nhà
 
 ## 1. Giới Thiệu Đồ Án
 
-Đồ án **Website Chăm Sóc Thú Cưng** là hệ thống thương mại điện tử (e-commerce) dành cho cửa hàng thú cưng, được xây dựng trên nền tảng **ASP.NET MVC 5 (.NET Framework 4.7.2)** với **SQL Server**.
+Đồ án **Website Chăm Sóc Thú Cưng tại nhà** là hệ thống thương mại điện tử (e-commerce) dành cho cửa hàng thú cưng, được xây dựng trên nền tảng **ASP.NET MVC 5 (.NET Framework 4.7.2)** với **SQL Server**.
 
 Hệ thống cung cấp:
 - **Trang người dùng**: xem sản phẩm, giỏ hàng, đặt hàng, đăng ký dịch vụ (khách sạn, spa) cho thú cưng.
@@ -104,7 +104,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 4. Các Link Đăng Nhập
+## 4. Các Link Đăng Nhập.
 
 ### 4.1. Trang Admin (Quản trị)
 
@@ -116,7 +116,7 @@ Hệ thống cung cấp:
 | **Đổi mật khẩu Admin** | `/Admin/DoiMK` |
 | **Thông tin Admin** | `/Admin/thongtinadmin` |
 
-### 4.2. Trang Quản Lý Phân Quyền.
+### 4.2. Trang Quản Lý Phân Quyền
 
 | Chức năng | Link |
 |---|---|
@@ -145,7 +145,7 @@ Hệ thống cung cấp:
 
 ---
 
-## 5. Các Chức Năng Chính
+## 5. Các Chức Năng Chính.
 
 ### 5.1. Chức năng Người dùng (Frontend)
 
@@ -181,7 +181,7 @@ Hệ thống cung cấp:
 | 12 | Thống kê | Thống kê doanh thu, đơn hàng |
 | 13 | Đổi mật khẩu | Đổi mật khẩu admin |
 
-### 5.3. Phân Quyền Chi Tiết
+### 5.3. Phân Quyền Chi Tiết.
 
 | Mã quyền | Tên quyền | Quản trị | Nhân viên 1 | Nhân viên 2 | Nhân viên 3 |
 |---|---|:---:|:---:|:---:|:---:|
