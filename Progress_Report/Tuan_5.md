@@ -44,7 +44,7 @@
 
 ### 2.2. Tổng hợp kiến thức đã học được
 
-| STT | Công nghệ/Kiến thức | Mức độ | Ứng dụng |
+| STT | Công nghệ/ Kiến thức | Mức độ | Ứng dụng |
 |---|---|---|---|
 | 1 | ASP.NET MVC 5 | Thành thạo | Toàn bộ project |
 | 2 | LINQ to SQL (DBML) | Thành thạo | Truy vấn database |
@@ -62,31 +62,31 @@
 ### 3.1. Biểu đồ tiến độ 5 tuần
 
 ```
-TUẦN 1 (22-28/06) ████████████████████░░░░░░░░░░░░░░░░░░░░░░ 35%
+TUẦN 1 (22/6 - 28/6) ████████████████████░░░░░░░░░░░░░░░░░░░░░░ 35%
     ├─ Cài đặt môi trường        ████████████████████ 100%
     ├─ Tiếp nhận đồ án           ████████████████████ 100%
     ├─ Phân tích cấu trúc        ████████████████████ 100%
     └─ Chạy thử chức năng        ████████████░░░░░░░░░░  60%
 
-TUẦN 2 (29/06-05/07) ████████████████░░░░░░░░░░░░░░░░░░░░░ 55%
+TUẦN 2 (29/6 - 05/7) ████████████████░░░░░░░░░░░░░░░░░░░░░ 55%
     ├─ Đổi tên project          ████████████████████ 100%
     ├─ Xóa thông tin cá nhân     ████████████████████ 100%
     ├─ Cấu hình SQL Server       ████████████████████ 100%
     └─ Viết README chi tiết       ████████████░░░░░░░░░░░░  70%
 
-TUẦN 3 (06-12/07) ████████████████░░░░░░░░░░░░░░░░░░░░░░░ 70%
+TUẦN 3 (06/7 - 12/7) ████████████████░░░░░░░░░░░░░░░░░░░░░░░ 70%
     ├─ Phân tích chức năng chi tiết  ████████████████████ 100%
     ├─ Vẽ sơ đồ Database          ████████████████████ 100%
     ├─ Lập bảng phân quyền        ████████████████████ 100%
     └─ Viết báo cáo kỹ thuật      ███████████████░░░░░░░░  80%
 
-TUẦN 4 (13-19/07) ███████████████████████░░░░░░░░░░░░░░░░░░ 85%
+TUẦN 4 (13/7 - 19/7) ███████████████████████░░░░░░░░░░░░░░░░░░ 85%
     ├─ Push lên GitHub             ████████████████████ 100%
     ├─ Tổ chức thư mục src/       ████████████████████ 100%
     ├─ Hoàn thiện README          ████████████████████ 100%
     └─ Viết Tuan_4.md             ████████████████████ 100%
 
-TUẦN 5 (20/07-01/08) ██████████████████████████████ 100%
+TUẦN 5 (20/7 - 01/8) ██████████████████████████████ 100%
     ├─ Kiểm tra tổng thể          ████████████████████ 100%
     ├─ Tổng hợp tài liệu          ████████████████████ 100%
     ├─ Chuẩn bị bảo vệ            ████████████████████ 100%
@@ -158,11 +158,11 @@ TUẦN 5 (20/07-01/08) ███████████████████
 nganltk090985-cell/cngan/
 ├── README.md                      (~26KB) - Tài liệu hướng dẫn đầy đủ
 └── Progress_Report/
-    ├── Tuan_1.md                (~10KB) - 22-28/06/2026
-    ├── Tuan_2.md                (~11KB) - 29/06-05/07/2026
-    ├── Tuan_3.md                (~12KB) - 06-12/07/2026
-    ├── Tuan_4.md                (~11KB) - 13-19/07/2026
-    └── Tuan_5.md                (~10KB) - 20/07-01/08/2026
+    ├── Tuan_1.md                (~10KB) - 22/6 - 28/6/2026
+    ├── Tuan_2.md                (~11KB) - 29/6 - 05/7/2026
+    ├── Tuan_3.md                (~12KB) - 06/7 - 12/7/2026
+    ├── Tuan_4.md                (~11KB) - 13/7 - 19/7/2026
+    └── Tuan_5.md                (~10KB) - 20/7 - 01/8/2026
 ```
 
 ### 5.3. Thông tin đăng nhập đã xác minh
@@ -221,7 +221,7 @@ nganltk090985-cell/cngan/
 
 ### 7.1. Đánh giá bản thân
 
-> **Đồ án Website Chăm Só Thú Cưng** là một đồ án khá hoàn chỉnh với đầy đủ các chức năng của một hệ thống thương mại điện tử cơ bản cộng thêm phần đặt dịch vụ thú cưng (khách sạn, spa). Qua 5 tuần, từ việc tiếp nhận đồ án có sẵn, cấu hình môi trường, đổi tên, xóa thông tin cá nhân, phân tích chi tiết từng chức năng cho đến việc hoàn thiện tài liệu và đưa lên GitHub, em đã học được rất nhiều kiến thức thực tế về ASP.NET MVC 5, SQL Server, Git/GitHub và quy trình phát triển phần mềm.
+> **Đồ án Website Chăm Só Thú Cưng tại Nhà** là một đồ án khá hoàn chỉnh với đầy đủ các chức năng của một hệ thống thương mại điện tử cơ bản cộng thêm phần đặt dịch vụ thú cưng (khách sạn, spa). Qua 5 tuần, từ việc tiếp nhận đồ án có sẵn, cấu hình môi trường, đổi tên, xóa thông tin cá nhân, phân tích chi tiết từng chức năng cho đến việc hoàn thiện tài liệu và đưa lên GitHub, em đã học được rất nhiều kiến thức thực tế về ASP.NET MVC 5, SQL Server, Git/GitHub và quy trình phát triển phần mềm.
 
 ### 7.2. Điểm mạnh của đồ án
 
@@ -262,7 +262,9 @@ nganltk090985-cell/cngan/
 ---
 
 **Ngày hoàn thành:** 01/08/2026
+
 **Chữ ký sinh viên:** ___________________
+
 **Xác nhận của giáo viên hướng dẫn:** ___________________
 
 ---
